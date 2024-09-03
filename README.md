@@ -19,4 +19,4 @@ The **Optimal Fertilizer Application** project aims to create a data-driven solu
 **Department:** University of Agricultural Sciences, Dharwad (UASD)  
 **Institution:** The Indian Council of Agricultural Research  
 **Category:** Software  
-**Theme:** Agriculture, FoodTech & Rural Development
+**Theme:** Agriculture, FoodTech and Rural Development
