@@ -13,15 +13,15 @@
 
 <body>
   <div class="form-container">
-    <form>
-      <h2>RECOMMEDING FERTILIZER FOR YOUR CROP</h2>
+    <form action="/recommend" method="POST">
+      <h2>RECOMMENDING FERTILIZER FOR YOUR CROP</h2>
       <div class="form-group">
-        <label for="soil type">Soil Type:</label>
-        <input type="text" id="soil type" name="soil type" placeholder="Enter the Soil Type like black,red">
+        <label for="soil_type">Soil Type:</label>
+        <input type="text" id="soil_type" name="soil_type" placeholder="Enter the Soil Type like black,red">
       </div>
       <div class="form-group">
-        <label for="crop type">Crop Type:</label>
-        <input type="text" id="Crop type" name="crop type" placeholder="Enter the Crop Type like rice,wheat">
+        <label for="crop_type">Crop Type:</label>
+        <input type="text" id="crop_type" name="crop_type" placeholder="Enter the Crop Type like rice,wheat">
       </div>
       <div class="form-group">
         <label for="nitrogen">Nitrogen:</label>
@@ -32,11 +32,11 @@
         <input type="number" id="potassium" name="potassium" placeholder="Enter the potassium content">
       </div>
       <div class="form-group">
-        <label for="phosphorous">Phosphorous</label>
+        <label for="phosphorous">Phosphorous:</label>
         <input type="number" id="phosphorous" name="phosphorous" placeholder="Enter the phosphorous content">
       </div>
       <div class="form-group">
-        <button class="btn btn-success" type="button" aria-expanded="false">Recommend</button>
+        <button class="btn btn-success" type="submit">Recommend</button>
       </div>
     </form>
   </div>
